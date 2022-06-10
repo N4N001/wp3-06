@@ -1,0 +1,13 @@
+<?php
+class kočka {
+  private $name;
+  private $age;
+  public function __construct($name, $age) {
+    $this->name = $name;
+    $this->age = $age; 
+  }
+  public function pozdrav() {
+    echo "Tohle je kočanda {$this->name} a je jí {$this->age} let."; 
+  }
+}
+?>
